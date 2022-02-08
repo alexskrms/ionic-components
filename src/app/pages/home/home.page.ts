@@ -55,9 +55,19 @@ export class HomePage implements OnInit {
       redirectTo: '/fab'
     },
     {
-      icon: 'car-outline',
+      icon: 'grid-outline',
       name: 'Grid',
       redirectTo: '/grid'
+    },
+    {
+      icon: 'infinite-outline',
+      name: 'Infinite Scroll',
+      redirectTo: '/infinitescroll'
+    },
+    {
+      icon: 'hammer-outline',
+      name: 'Input',
+      redirectTo: '/input'
     }
   ];
 
